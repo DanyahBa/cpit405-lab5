@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="stars.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header id="profile-header">
+
+        <div class="header-buttons">
+            <button id="theme-toggle">Light Mode</button>
+            <button id="print-btn">Print / Save as PDF</button>
+        </div>
+
+        <h1>Danyah Ba Rasheed</h1>
+        <p class="job-title">Information Technology Student</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <main class="cv-container">
+
+        <section id="about" class="cv-section">
+            <h2>About Me</h2>
+            <p>
+                Pursuing Web Development, and
+                interested in Data Science. Passionate about building efficient digital solutions and extracting
+                insights from data.
+                <span id="more-text" style="display: none;">I aspire to change, develop, and undergo new experiences to leave a mark
+                of improvement.</span>
+            </p>
+
+            <button id="read-more">Show More +</button>
+        </section>
+
+        <section id="education" class="cv-section">
+            <h2>Education</h2>
+
+            <article class="education-item">
+                <h3>King Abdulaziz University</h3>
+                <p>Bachelor of Information Technology</p>
+                <p>GPA: 4.99</p>
+            </article>
+        </section>
+
+        <section id="skills" class="cv-section">
+            <h2>Technical Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+
+            <br>
+
+            <h2>Soft Skills</h2>
+
+            <ul class="skills-list">
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Teamwork</li>
+                <li>Volunteering</li>
+                <li>Adaptability and Flexibility</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="cv-section">
+            <h2>Projects</h2>
+            <div id="project-filters">  
+                <button class="filter-btn" data-category="All">All</button>
+                <button class="filter-btn" data-category="Web">Web</button>
+                <button class="filter-btn" data-category="Programming">Programming</button>
+            </div>
+            <div id="projects-card"></div>
+        </section>
+
+        <section id="contact" class="cv-section">
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                <a href="mailto:Danyahba@gmail.com">Danyahba@gmail.com</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/DanyahBa">github.com/DanyahBa</a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/danyah-ba-rasheed-803765321">LinkedIn Profile</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Danyah Ba Rasheed</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
